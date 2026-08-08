@@ -1,0 +1,29 @@
+{
+  "title": "Code and data for 'A Least-Squares Approach to Sample-Based Prior Elicitation'",
+  "description": "<p>Reproduction package for the paper <em>A Least-Squares Approach to Sample-Based Prior Elicitation</em> (Yannik Pitcan).</p><p>Eight seeded Python scripts reproduce every figure and every reported number in the paper: the least-squares elicitation estimator for the normal location and beta shape families; the comparison against the sample-only maximum-likelihood baseline and the reporting-noise crossover; the design analysis and its degeneracy under purely multiplicative noise; the no-moments (Cauchy) case; joint estimation of the parameter and an unknown reporting scale; the multivariate (location-scale) case; the additive error floor and the resulting interior optimal designs; and a semi-synthetic calibration against eleven datasets of human risk-frequency judgments.</p><p>Includes the tidy risk-judgment dataset converted from Pachur (2024, https://osf.io/u4d7g) together with the script that regenerates it from source, the figure PDFs used in the paper, and pinned package versions.</p>",
+  "upload_type": "software",
+  "license": "MIT",
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "Pitcan, Yannik"
+    }
+  ],
+  "keywords": [
+    "prior elicitation",
+    "Bayesian statistics",
+    "M-estimation",
+    "Berry-Esseen bounds",
+    "asymptotic normality",
+    "optimal design",
+    "expert knowledge"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.1016/j.cognition.2024.105736",
+      "relation": "references",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ]
+}
