@@ -1,0 +1,367 @@
+dataset,source_file,risk,actual,estimate
+Lichtenstein1978,Lichtenstein1978,Accidental falls,17425.0,2705.643836
+Lichtenstein1978,Lichtenstein1978,All accidents,112750.0,89933.83562
+Lichtenstein1978,Lichtenstein1978,All cancer,328000.0,46426.9589
+Lichtenstein1978,Lichtenstein1978,All disease,1740450.0,89767.0411
+Lichtenstein1978,Lichtenstein1978,Appendicitis,902.0,675.9452055
+Lichtenstein1978,Lichtenstein1978,Asthma,1886.0,576.4657534
+Lichtenstein1978,Lichtenstein1978,Botulism,2.05,248.6575342
+Lichtenstein1978,Lichtenstein1978,Breast cancer,31160.0,3111.013699
+Lichtenstein1978,Lichtenstein1978,Diabetes,38950.0,1646.109589
+Lichtenstein1978,Lichtenstein1978,Drowning,7380.0,3448.931507
+Lichtenstein1978,Lichtenstein1978,Electrocution,1025.0,786.8493151
+Lichtenstein1978,Lichtenstein1978,Emphysema,21730.0,2904.438356
+Lichtenstein1978,Lichtenstein1978,Excess cold,334.15,354.7123288
+Lichtenstein1978,Lichtenstein1978,Fire and flames,7380.0,1753.561644
+Lichtenstein1978,Lichtenstein1978,Firearm accident,2255.0,1408.164384
+Lichtenstein1978,Lichtenstein1978,Fireworks,6.15,217.2328767
+Lichtenstein1978,Lichtenstein1978,Flood,205.0,764.9041096
+Lichtenstein1978,Lichtenstein1978,Heart disease,738000.0,24206.87671
+Lichtenstein1978,Lichtenstein1978,Homicide,18860.0,6344.30137
+Lichtenstein1978,Lichtenstein1978,Infectious hepatitis,676.5,649.7534247
+Lichtenstein1978,Lichtenstein1978,Leukemia,14555.0,2572.054795
+Lichtenstein1978,Lichtenstein1978,Lightning,106.6,99.94520548
+Lichtenstein1978,Lichtenstein1978,Lung cancer,75850.0,9894.849315
+Lichtenstein1978,Lichtenstein1978,Measles,4.92,220.9589041
+Lichtenstein1978,Lichtenstein1978,Motor vehicle accident,55350.0,43178.84932
+Lichtenstein1978,Lichtenstein1978,Motor-train collision,1517.0,713.0410959
+Lichtenstein1978,Lichtenstein1978,Nonvenomous animal,129.15,210.7945205
+Lichtenstein1978,Lichtenstein1978,Poisoning by vitamins,1.025,150.3561644
+Lichtenstein1978,Lichtenstein1978,Poisoning solid/liquid,2562.5,1084.547945
+Lichtenstein1978,Lichtenstein1978,Polio,17.015,132.5753425
+Lichtenstein1978,Lichtenstein1978,"Pregnancy, abortion, and childbirth",451.0,1494.109589
+Lichtenstein1978,Lichtenstein1978,Smallpox vaccination,8.2,27.34246575
+Lichtenstein1978,Lichtenstein1978,Stomach cancer,95530.0,3701.726027
+Lichtenstein1978,Lichtenstein1978,Stroke,209100.0,8051.753425
+Lichtenstein1978,Lichtenstein1978,Suicide,24600.0,5185.205479
+Lichtenstein1978,Lichtenstein1978,Syphilis,410.0,550.3013699
+Lichtenstein1978,Lichtenstein1978,Tornado,90.2,592.630137
+Lichtenstein1978,Lichtenstein1978,Tuberculosis,3690.0,737.9726027
+Lichtenstein1978,Lichtenstein1978,Venoumous bite or sting,48.175,401.6712329
+Lichtenstein1978,Lichtenstein1978,Whooping cough,14.76,117.4520548
+Hertwig2005,Hertwig2005,Accidental falls,7985.0,1000.0
+Hertwig2005,Hertwig2005,All accidents,20784.0,80000.0
+Hertwig2005,Hertwig2005,All disease,783645.0,350000.0
+Hertwig2005,Hertwig2005,Appendicitis,242.0,100.0
+Hertwig2005,Hertwig2005,Asthma,4086.0,250.0
+Hertwig2005,Hertwig2005,Botulism,74.0,100.0
+Hertwig2005,Hertwig2005,Breast cancer,18249.0,4000.0
+Hertwig2005,Hertwig2005,Diabetes,21820.0,400.0
+Hertwig2005,Hertwig2005,Drowning,538.0,51.0
+Hertwig2005,Hertwig2005,Electrocution,93.0,200.0
+Hertwig2005,Hertwig2005,Emphysema,2790.0,398.0
+Hertwig2005,Hertwig2005,Excess cold,159.0,39.0
+Hertwig2005,Hertwig2005,Fire and flames,526.0,200.0
+Hertwig2005,Hertwig2005,Heart disease,410869.0,50000.0
+Hertwig2005,Hertwig2005,Homicide,800.0,1000.0
+Hertwig2005,Hertwig2005,Infectious hepatitis,321.0,250.0
+Hertwig2005,Hertwig2005,Leukemia,6844.0,1500.0
+Hertwig2005,Hertwig2005,Lightning,7.0,10.0
+Hertwig2005,Hertwig2005,Lung cancer,37728.0,8000.0
+Hertwig2005,Hertwig2005,Measles,2.0,15.0
+Hertwig2005,Hertwig2005,"Motor vehicle (car, truck, or bus) accidents",8028.0,13500.0
+Hertwig2005,Hertwig2005,Nonvenomous animal,26.0,30.0
+Hertwig2005,Hertwig2005,Poisoning by solid or liquid,493.0,500.0
+Hertwig2005,Hertwig2005,Polio,3.0,40.0
+Hertwig2005,Hertwig2005,"Pregnancy, childbirth, and abortion",45.0,150.0
+Hertwig2005,Hertwig2005,Stomach cancer,69744.0,8000.0
+Hertwig2005,Hertwig2005,Stroke,47276.0,10000.0
+Hertwig2005,Hertwig2005,Suicide,11670.0,1603.0
+Hertwig2005,Hertwig2005,Syphilis,24.0,11.0
+Hertwig2005,Hertwig2005,Tuberculosis,551.0,100.0
+Pachur2012,Pachur2012,Accidental falls,1096.2,200.0
+Pachur2012,Pachur2012,All accidents,2094.0,1000.0
+Pachur2012,Pachur2012,All cancer,15338.2,2000.0
+Pachur2012,Pachur2012,All disease,55507.7,7000.0
+Pachur2012,Pachur2012,Appendicitis,15.7,50.0
+Pachur2012,Pachur2012,Asthma,145.0,50.0
+Pachur2012,Pachur2012,Botulism,2.8,34.0
+Pachur2012,Pachur2012,Breast cancer,1347.3,300.0
+Pachur2012,Pachur2012,Diabetes,1632.5,120.0
+Pachur2012,Pachur2012,Drowning,61.8,26.0
+Pachur2012,Pachur2012,Electrocution,6.8,20.0
+Pachur2012,Pachur2012,Emphysema,52.5,50.0
+Pachur2012,Pachur2012,Excess cold,9.0,10.0
+Pachur2012,Pachur2012,Fire and flames,31.8,40.0
+Pachur2012,Pachur2012,Firearm accident,3.2,37.0
+Pachur2012,Pachur2012,Fireworks,0.3,7.0
+Pachur2012,Pachur2012,Heart disease,24095.2,1000.0
+Pachur2012,Pachur2012,Homicide,66.7,50.0
+Pachur2012,Pachur2012,Infectious hepatitis,11.3,50.0
+Pachur2012,Pachur2012,Leukemia,494.3,200.0
+Pachur2012,Pachur2012,Lightning,0.3,5.0
+Pachur2012,Pachur2012,Lung cancer,2756.0,500.0
+Pachur2012,Pachur2012,"Motor vehicle (car, truck, or bus) accidents",554.3,500.0
+Pachur2012,Pachur2012,Motor vehicle-train collision,3.2,20.0
+Pachur2012,Pachur2012,Nonvenomous animal,1.7,12.0
+Pachur2012,Pachur2012,Poisoning by solid or liquid,22.2,50.0
+Pachur2012,Pachur2012,"Pregnancy, childbirth, and abortion",0.2,30.0
+Pachur2012,Pachur2012,Stomach cancer,4366.7,500.0
+Pachur2012,Pachur2012,Stroke,2792.5,500.0
+Pachur2012,Pachur2012,Suicide,1333.7,300.0
+Pachur2012,Pachur2012,Syphilis,1.0,12.0
+Pachur2012,Pachur2012,Tuberculosis,23.2,20.0
+Pachur2012,Pachur2012,Venomous bite or sting,3.5,20.0
+Pachur2012,Pachur2012,Whooping cough,0.2,20.0
+Morgan1983,Morgan1983,Accidental falls,13200.0,697.0
+Morgan1983,Morgan1983,All accidents,106550.0,118338.0
+Morgan1983,Morgan1983,All cancer,414320.0,71130.0
+Morgan1983,Morgan1983,All disease,1630000.0,426300.0
+Morgan1983,Morgan1983,Appendicitis,650.0,179.0
+Morgan1983,Morgan1983,Asthma,2070.0,316.0
+Morgan1983,Morgan1983,Botulism,6.0,37.0
+Morgan1983,Morgan1983,Breast cancer,36700.0,4074.0
+Morgan1983,Morgan1983,Diabetes,32060.0,2240.0
+Morgan1983,Morgan1983,Drowning,7535.0,1568.0
+Morgan1983,Morgan1983,Electrocution,1099.0,180.0
+Morgan1983,Morgan1983,Emphysema,12500.0,3900.0
+Morgan1983,Morgan1983,Excess cold,600.0,150.0
+Morgan1983,Morgan1983,Fire and flames,5984.0,4624.0
+Morgan1983,Morgan1983,Firearm accident,2243.0,11336.0
+Morgan1983,Morgan1983,Fireworks,5.0,195.0
+Morgan1983,Morgan1983,Flood,140.0,163.0
+Morgan1983,Morgan1983,Heart disease,710000.0,100000.0
+Morgan1983,Morgan1983,Homicide,25090.0,13226.0
+Morgan1983,Morgan1983,Infectious hepatitis,350.0,225.0
+Morgan1983,Morgan1983,Leukemia,17100.0,4964.0
+Morgan1983,Morgan1983,Lightning,110.0,35.0
+Morgan1983,Morgan1983,Lung cancer,102000.0,18040.0
+Morgan1983,Morgan1983,Measles,10.0,123.0
+Morgan1983,Morgan1983,Motor vehicle accident,54800.0,50990.0
+Morgan1983,Morgan1983,Motor-train collision,995.0,234.0
+Morgan1983,Morgan1983,Nonvenomous animal,98.0,136.0
+Morgan1983,Morgan1983,Poisoning by vitamins,0.3,22.0
+Morgan1983,Morgan1983,Poisoning solid/liquid,3831.0,1296.0
+Morgan1983,Morgan1983,Polio,20.0,21.0
+Morgan1983,Morgan1983,"Pregnancy, abortion, and childbirth",250.0,1610.0
+Morgan1983,Morgan1983,Stomach cancer,109000.0,2460.0
+Morgan1983,Morgan1983,Stroke,170420.0,26580.0
+Morgan1983,Morgan1983,Suicide,26290.0,7310.0
+Morgan1983,Morgan1983,Syphilis,190.0,236.0
+Morgan1983,Morgan1983,Tornado,92.0,200.0
+Morgan1983,Morgan1983,Tuberculosis,1770.0,400.0
+Morgan1983,Morgan1983,Venoumous bite or sting,53.0,177.0
+Morgan1983,Morgan1983,Whooping cough,11.0,62.0
+Benjamin2001,Benjamin2001,Accidental falls,12662.0,3000.0
+Benjamin2001,Benjamin2001,All accidents,89347.0,100000.0
+Benjamin2001,Benjamin2001,All cancer,514657.0,100000.0
+Benjamin2001,Benjamin2001,All disease,2020331.0,162186.5
+Benjamin2001,Benjamin2001,Appendicitis,389.0,600.0
+Benjamin2001,Benjamin2001,Asthma,5106.0,1000.0
+Benjamin2001,Benjamin2001,Botulism,6.0,472.0
+Benjamin2001,Benjamin2001,Breast cancer,43849.0,10000.0
+Benjamin2001,Benjamin2001,Diabetes,48951.0,5000.0
+Benjamin2001,Benjamin2001,Drowning,3967.0,1500.0
+Benjamin2001,Benjamin2001,Electrocution,626.0,626.0
+Benjamin2001,Benjamin2001,Emphysema,16436.0,1782.0
+Benjamin2001,Benjamin2001,Excess cold,588.0,675.0
+Benjamin2001,Benjamin2001,Fire and flames,4120.0,1600.0
+Benjamin2001,Benjamin2001,Firearm accident,1441.0,2000.0
+Benjamin2001,Benjamin2001,Fireworks,4.0,150.0
+Benjamin2001,Benjamin2001,Flood,63.0,500.0
+Benjamin2001,Benjamin2001,Heart disease,679200.0,28000.0
+Benjamin2001,Benjamin2001,Homicide,26513.0,18500.0
+Benjamin2001,Benjamin2001,Infectious hepatitis,1840.0,1500.0
+Benjamin2001,Benjamin2001,Leukemia,18945.0,3165.5
+Benjamin2001,Benjamin2001,Lightning,75.0,150.0
+Benjamin2001,Benjamin2001,Lung cancer,143758.0,10000.0
+Benjamin2001,Benjamin2001,Measles,27.0,150.0
+Benjamin2001,Benjamin2001,Motor vehicle accident,43536.0,43536.0
+Benjamin2001,Benjamin2001,Motor-train collision,541.0,500.0
+Benjamin2001,Benjamin2001,Nonvenomous animal,96.0,200.0
+Benjamin2001,Benjamin2001,Poisoning by vitamins,46.0,1000.0
+Benjamin2001,Benjamin2001,Polio,1.0,64.0
+Benjamin2001,Benjamin2001,"Pregnancy, abortion, and childbirth",323.0,1850.0
+Benjamin2001,Benjamin2001,Stomach cancer,121781.0,5000.0
+Benjamin2001,Benjamin2001,Stroke,143481.0,9000.0
+Benjamin2001,Benjamin2001,Suicide,30810.0,10000.0
+Benjamin2001,Benjamin2001,Syphilis,93.0,500.0
+Benjamin2001,Benjamin2001,Tornado,39.0,450.0
+Benjamin2001,Benjamin2001,Tuberculosis,1713.0,620.0
+Benjamin2001,Benjamin2001,Venoumous bite or sting,90.0,500.0
+HakesViscusi2004,HakesViscusi2004,Accidental falls,12313.0,1279.0
+HakesViscusi2004,HakesViscusi2004,All cancer,505322.0,73514.0
+HakesViscusi2004,HakesViscusi2004,Appendicitis,500.0,445.0
+HakesViscusi2004,HakesViscusi2004,Asthma,4750.0,3543.0
+HakesViscusi2004,HakesViscusi2004,Botulism,2.0,623.0
+HakesViscusi2004,HakesViscusi2004,Breast cancer,45000.0,15276.0
+HakesViscusi2004,HakesViscusi2004,Diabetes,47664.0,4846.0
+HakesViscusi2004,HakesViscusi2004,Drowning,3979.0,2935.0
+HakesViscusi2004,HakesViscusi2004,Electrocution,670.0,1043.0
+HakesViscusi2004,HakesViscusi2004,Fire and flames,4175.0,3076.0
+HakesViscusi2004,HakesViscusi2004,Firearm accident,1416.0,3235.0
+HakesViscusi2004,HakesViscusi2004,Fireworks,5.0,229.0
+HakesViscusi2004,HakesViscusi2004,Heart disease,720000.0,41962.0
+HakesViscusi2004,HakesViscusi2004,Homicide,24614.0,23000.0
+HakesViscusi2004,HakesViscusi2004,Hepatitis,677.0,1365.0
+HakesViscusi2004,HakesViscusi2004,Lightning,89.0,241.0
+HakesViscusi2004,HakesViscusi2004,Lung cancer,145000.0,17017.0
+HakesViscusi2004,HakesViscusi2004,Measles,5.0,233.0
+HakesViscusi2004,HakesViscusi2004,Poisoning solid/liquid,5200.0,2504.0
+HakesViscusi2004,HakesViscusi2004,Birthing difficulties,320.0,1766.0
+HakesViscusi2004,HakesViscusi2004,Stomach cancer,13640.0,6441.0
+HakesViscusi2004,HakesViscusi2004,Stroke,144088.0,17466.0
+Armantier2006Treatment1,Armantier2006,Accidental falls,13162.0,1546.3
+Armantier2006Treatment1,Armantier2006,All accident,97860.0,31806.3
+Armantier2006Treatment1,Armantier2006,All cancer,549838.0,93854.4
+Armantier2006Treatment1,Armantier2006,All diseases,2293539.0,247028.3
+Armantier2006Treatment1,Armantier2006,Appendicitis,331.0,884.8
+Armantier2006Treatment1,Armantier2006,Asthma,4172.0,1745.6
+Armantier2006Treatment1,Armantier2006,Botulism,4.0,524.0
+Armantier2006Treatment1,Armantier2006,Breast cancer,41528.0,19084.5
+Armantier2006Treatment1,Armantier2006,Diabetes,59873.0,7037.4
+Armantier2006Treatment1,Armantier2006,Drowning,3529.0,3253.8
+Armantier2006Treatment1,Armantier2006,Electrocution,437.0,2964.0
+Armantier2006Treatment1,Armantier2006,Emphysema,17787.0,9687.1
+Armantier2006Treatment1,Armantier2006,Excess cold,598.0,563.7
+Armantier2006Treatment1,Armantier2006,Fire and flames,3348.0,2254.4
+Armantier2006Treatment1,Armantier2006,Firearms accident,824.0,6344.7
+Armantier2006Treatment1,Armantier2006,Fireworks,7.0,381.6
+Armantier2006Treatment1,Armantier2006,Flood,15.0,772.3
+Armantier2006Treatment1,Armantier2006,Heart diseases,725192.0,51850.3
+Armantier2006Treatment1,Armantier2006,Homicide,16889.0,19537.0
+Armantier2006Treatment1,Armantier2006,Hepatitis,4853.0,1971.5
+Armantier2006Treatment1,Armantier2006,Leukemia,21014.0,8578.1
+Armantier2006Treatment1,Armantier2006,Lightning,64.0,510.2
+Armantier2006Treatment1,Armantier2006,Lung cancer,152063.0,30282.6
+Armantier2006Treatment1,Armantier2006,Measles,2.0,126.8
+Armantier2006Treatment1,Armantier2006,Motor-train collision,160.0,1062.8
+Armantier2006Treatment1,Armantier2006,Nonvenomous animals,148.0,274.3
+Armantier2006Treatment1,Armantier2006,Polio,263.0,2434.7
+Armantier2006Treatment1,Armantier2006,Pregnancy and childbirth,406.0,1723.3
+Armantier2006Treatment1,Armantier2006,Stomach cancer,12711.0,9476.8
+Armantier2006Treatment1,Armantier2006,Stroke,199450.0,19048.1
+Armantier2006Treatment1,Armantier2006,Suicide,29199.0,4097.9
+Armantier2006Treatment1,Armantier2006,Syphilis,33.0,155.9
+Armantier2006Treatment1,Armantier2006,Cataclysmic storms,129.0,1686.4
+Armantier2006Treatment1,Armantier2006,Tuberculosis,1116.0,3567.0
+Armantier2006Treatment1,Armantier2006,Venomous animals,17.0,321.5
+Armantier2006Treatment4,Armantier2006,Accidental falls,13162.0,719.3
+Armantier2006Treatment4,Armantier2006,All accident,97860.0,42809.9
+Armantier2006Treatment4,Armantier2006,All cancer,549838.0,73400.3
+Armantier2006Treatment4,Armantier2006,All diseases,2293539.0,328083.9
+Armantier2006Treatment4,Armantier2006,Appendicitis,331.0,951.6
+Armantier2006Treatment4,Armantier2006,Asthma,4172.0,2385.8
+Armantier2006Treatment4,Armantier2006,Botulism,4.0,524.3
+Armantier2006Treatment4,Armantier2006,Breast cancer,41528.0,26951.6
+Armantier2006Treatment4,Armantier2006,Diabetes,59873.0,8476.9
+Armantier2006Treatment4,Armantier2006,Drowning,3529.0,2080.8
+Armantier2006Treatment4,Armantier2006,Electrocution,437.0,1742.0
+Armantier2006Treatment4,Armantier2006,Emphysema,17787.0,5227.5
+Armantier2006Treatment4,Armantier2006,Excess cold,598.0,393.7
+Armantier2006Treatment4,Armantier2006,Fire and flames,3348.0,4170.4
+Armantier2006Treatment4,Armantier2006,Firearms accident,824.0,11754.8
+Armantier2006Treatment4,Armantier2006,Fireworks,7.0,225.1
+Armantier2006Treatment4,Armantier2006,Flood,15.0,946.9
+Armantier2006Treatment4,Armantier2006,Heart diseases,725192.0,68957.3
+Armantier2006Treatment4,Armantier2006,Homicide,16889.0,25369.9
+Armantier2006Treatment4,Armantier2006,Hepatitis,4853.0,3885.2
+Armantier2006Treatment4,Armantier2006,Leukemia,21014.0,10597.9
+Armantier2006Treatment4,Armantier2006,Lightning,64.0,731.0
+Armantier2006Treatment4,Armantier2006,Lung cancer,152063.0,46124.4
+Armantier2006Treatment4,Armantier2006,Measles,2.0,223.3
+Armantier2006Treatment4,Armantier2006,Motor-train collision,160.0,407.0
+Armantier2006Treatment4,Armantier2006,Nonvenomous animals,148.0,398.8
+Armantier2006Treatment4,Armantier2006,Polio,263.0,1624.6
+Armantier2006Treatment4,Armantier2006,Pregnancy and childbirth,406.0,945.2
+Armantier2006Treatment4,Armantier2006,Stomach cancer,12711.0,6907.4
+Armantier2006Treatment4,Armantier2006,Stroke,199450.0,42867.7
+Armantier2006Treatment4,Armantier2006,Suicide,29199.0,2538.8
+Armantier2006Treatment4,Armantier2006,Syphilis,33.0,247.2
+Armantier2006Treatment4,Armantier2006,Cataclysmic storms,129.0,1029.2
+Armantier2006Treatment4,Armantier2006,Tuberculosis,1116.0,1129.9
+Armantier2006Treatment4,Armantier2006,Venomous animals,17.0,484.1
+Armantier2006Treatment6,Armantier2006,Accidental falls,13162.0,467.9
+Armantier2006Treatment6,Armantier2006,All accident,97860.0,45830.1
+Armantier2006Treatment6,Armantier2006,All cancer,549838.0,53450.6
+Armantier2006Treatment6,Armantier2006,All diseases,2293539.0,210497.8
+Armantier2006Treatment6,Armantier2006,Appendicitis,331.0,1230.1
+Armantier2006Treatment6,Armantier2006,Asthma,4172.0,1984.6
+Armantier2006Treatment6,Armantier2006,Botulism,4.0,391.3
+Armantier2006Treatment6,Armantier2006,Breast cancer,41528.0,16262.3
+Armantier2006Treatment6,Armantier2006,Diabetes,59873.0,8271.8
+Armantier2006Treatment6,Armantier2006,Drowning,3529.0,1661.8
+Armantier2006Treatment6,Armantier2006,Electrocution,437.0,1532.3
+Armantier2006Treatment6,Armantier2006,Emphysema,17787.0,6201.4
+Armantier2006Treatment6,Armantier2006,Excess cold,598.0,329.0
+Armantier2006Treatment6,Armantier2006,Fire and flames,3348.0,3166.1
+Armantier2006Treatment6,Armantier2006,Firearms accident,824.0,8761.9
+Armantier2006Treatment6,Armantier2006,Fireworks,7.0,95.4
+Armantier2006Treatment6,Armantier2006,Flood,15.0,700.8
+Armantier2006Treatment6,Armantier2006,Heart diseases,725192.0,35567.4
+Armantier2006Treatment6,Armantier2006,Homicide,16889.0,22381.1
+Armantier2006Treatment6,Armantier2006,Hepatitis,4853.0,2642.8
+Armantier2006Treatment6,Armantier2006,Leukemia,21014.0,7791.2
+Armantier2006Treatment6,Armantier2006,Lightning,64.0,619.6
+Armantier2006Treatment6,Armantier2006,Lung cancer,152063.0,33212.8
+Armantier2006Treatment6,Armantier2006,Measles,2.0,207.3
+Armantier2006Treatment6,Armantier2006,Motor-train collision,160.0,751.6
+Armantier2006Treatment6,Armantier2006,Nonvenomous animals,148.0,288.2
+Armantier2006Treatment6,Armantier2006,Polio,263.0,1248.3
+Armantier2006Treatment6,Armantier2006,Pregnancy and childbirth,406.0,1942.5
+Armantier2006Treatment6,Armantier2006,Stomach cancer,12711.0,6952.1
+Armantier2006Treatment6,Armantier2006,Stroke,199450.0,24035.7
+Armantier2006Treatment6,Armantier2006,Suicide,29199.0,3531.8
+Armantier2006Treatment6,Armantier2006,Syphilis,33.0,453.5
+Armantier2006Treatment6,Armantier2006,Cataclysmic storms,129.0,1444.1
+Armantier2006Treatment6,Armantier2006,Tuberculosis,1116.0,1608.4
+Armantier2006Treatment6,Armantier2006,Venomous animals,17.0,417.0
+LacourDavis2020Exp1,LacourDavis2020,Accidental falls,33381.0,2001.0
+LacourDavis2020Exp1,LacourDavis2020,All accidents,142557.0,50001.0
+LacourDavis2020Exp1,LacourDavis2020,All cancer,590938.375,75001.0
+LacourDavis2020Exp1,LacourDavis2020,Appendicitis,198.6153846,501.0
+LacourDavis2020Exp1,LacourDavis2020,Asthma,3615.0,1001.0
+LacourDavis2020Exp1,LacourDavis2020,Botulism,1.0,101.0
+LacourDavis2020Exp1,LacourDavis2020,Breast cancer,41470.89583,10001.0
+LacourDavis2020Exp1,LacourDavis2020,Diabetes,76601.21875,11001.0
+LacourDavis2020Exp1,LacourDavis2020,Drowning,3602.0,1001.0
+LacourDavis2020Exp1,LacourDavis2020,Electrocution,370.0,501.0
+LacourDavis2020Exp1,LacourDavis2020,Emphysema,7249.0,3751.0
+LacourDavis2020Exp1,LacourDavis2020,Excess cold,798.0,451.0
+LacourDavis2020Exp1,LacourDavis2020,Fire and flames,2646.0,2501.0
+LacourDavis2020Exp1,LacourDavis2020,Firearm accident,489.0,1001.0
+LacourDavis2020Exp1,LacourDavis2020,Fireworks,7.0,101.0
+LacourDavis2020Exp1,LacourDavis2020,Flood,79.0,501.0
+LacourDavis2020Exp1,LacourDavis2020,Heart disease,631998.0,46001.0
+LacourDavis2020Exp1,LacourDavis2020,Homicide,17469.375,15001.0
+LacourDavis2020Exp1,LacourDavis2020,Infectious hepatitis,7461.0,1001.0
+LacourDavis2020Exp1,LacourDavis2020,Leukemia,22665.0,5001.0
+LacourDavis2020Exp1,LacourDavis2020,Lightning,28.0,51.0
+LacourDavis2020Exp1,LacourDavis2020,Lung cancer,505338.2188,15001.0
+LacourDavis2020Exp1,LacourDavis2020,Measles,1.0,78.0
+LacourDavis2020Exp1,LacourDavis2020,Motor vehicle accident,37757.0,48001.0
+LacourDavis2020Exp1,LacourDavis2020,Nonvenomous animal,135.0,101.0
+LacourDavis2020Exp1,LacourDavis2020,Poisoning by vitamins,1.0,51.0
+LacourDavis2020Exp1,LacourDavis2020,Poisoning solid/liquid,47478.0,1001.0
+LacourDavis2020Exp1,LacourDavis2020,Polio,1.0,11.0
+LacourDavis2020Exp1,LacourDavis2020,"Pregnancy, abortion, and childbirth",19.0,1189.05175
+LacourDavis2020Exp1,LacourDavis2020,Smallpox,1.0,26.0
+LacourDavis2020Exp1,LacourDavis2020,Smallpox vaccination,1.0,3.0
+LacourDavis2020Exp1,LacourDavis2020,Stomach cancer,11065.5,5001.0
+LacourDavis2020Exp1,LacourDavis2020,Stroke,124097.6875,10001.0
+LacourDavis2020Exp1,LacourDavis2020,Suicide,43226.33333,10001.0
+LacourDavis2020Exp1,LacourDavis2020,Syphilis,45.0,201.0
+LacourDavis2020Exp1,LacourDavis2020,Tornado,41.0,176.0
+LacourDavis2020Exp1,LacourDavis2020,Tuberculosis,470.0,376.0
+LacourDavis2020Exp1,LacourDavis2020,Venoumous bite or sting,10.0,301.0
+LacourDavis2020Exp1,LacourDavis2020,Whooping cough,7.0,101.0
+LacourDavis2020Exp2,LacourDavis2020,All cancer,590938.375,180000.0
+LacourDavis2020Exp2,LacourDavis2020,Appendicitis,370.0,700.0
+LacourDavis2020Exp2,LacourDavis2020,Asthma,3602.0,1000.0
+LacourDavis2020Exp2,LacourDavis2020,Breast cancer,17469.375,25000.0
+LacourDavis2020Exp2,LacourDavis2020,Drowning,798.0,1000.0
+LacourDavis2020Exp2,LacourDavis2020,Electrocution,198.6153846,500.0
+LacourDavis2020Exp2,LacourDavis2020,Excess cold,124097.6875,700.0
+LacourDavis2020Exp2,LacourDavis2020,Firearm accident,489.0,5000.0
+LacourDavis2020Exp2,LacourDavis2020,Fireworks,7.0,135.0
+LacourDavis2020Exp2,LacourDavis2020,Flood,79.0,400.0
+LacourDavis2020Exp2,LacourDavis2020,Homicide,16994.625,25000.0
+LacourDavis2020Exp2,LacourDavis2020,Infectious hepatitis,3615.0,2000.0
+LacourDavis2020Exp2,LacourDavis2020,Lightning,28.0,50.0
+LacourDavis2020Exp2,LacourDavis2020,Lung cancer,505338.2188,30000.0
+LacourDavis2020Exp2,LacourDavis2020,Stomach cancer,7461.0,5000.0
+LacourDavis2020Exp2,LacourDavis2020,Stroke,43226.33333,25000.0
+LacourDavis2020Exp2,LacourDavis2020,Suicide,41470.89583,18000.0
+LacourDavis2020Exp2,LacourDavis2020,Tornado,41.0,250.0
+LacourDavis2020Exp2,LacourDavis2020,Tuberculosis,470.0,180.0
+LacourDavis2020Exp2,LacourDavis2020,Venoumous bite or sting,10.0,500.0

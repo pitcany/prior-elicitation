@@ -1,0 +1,11 @@
+# Dependencies for the scripts in experiments/.
+#
+# numpy >= 2.0 is required (the scripts use np.trapezoid, added in 2.0).
+# The == pins record the environment in which every number quoted in the
+# manuscript was produced (Python 3.11); use them for exact reproduction,
+# or relax to >= if exact replication is not needed.
+numpy==2.4.4
+scipy==1.17.1
+matplotlib==3.10.9
+cvxpy==1.9.2        # experiments/ch3_convergence.py (SOCP)
+POT==0.9.7.post1    # experiments/ch4_office_caltech.py (EMD/Sinkhorn transport)
