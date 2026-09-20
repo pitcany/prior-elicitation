@@ -1,0 +1,250 @@
+% arXiv-ready build of the prior-elicitation paper.
+% Self-contained: hardcoded bibliography (no biber/bibtex needed).
+% Build:  pdflatex elicitation_arxiv  &&  pdflatex elicitation_arxiv
+\documentclass[11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,amsfonts,mathtools}
+\usepackage{graphicx}
+\usepackage{url}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{definition}{Definition}
+\newtheorem{prop}{Proposition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+\DeclareMathOperator*{\calX}{\mathcal{X}}
+\DeclareMathOperator*{\calY}{\mathcal{Y}}
+
+\newcommand{\ovl}{\overline}
+\newcommand{\E}{\mathrm{E}}
+\newcommand{\Var}{\mathrm{Var}}
+\newcommand{\Cov}{\mathrm{Cov}}
+\newcommand{\Prob}{\mathrm{P}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\eps}{\varepsilon}
+
+\DeclarePairedDelimiter\paren{(}{)}
+\DeclarePairedDelimiter\ang{\langle}{\rangle}
+\DeclarePairedDelimiter\abs{\lvert}{\rvert}
+\DeclarePairedDelimiter\norm{\lVert}{\rVert}
+\DeclarePairedDelimiter\bkt{[}{]}
+\DeclarePairedDelimiter\set{\{}{\}}
+
+\title{A Least-Squares Approach to Sample-Based Prior Elicitation}
+\author{Yannik Pitcan\thanks{The foundations of this work were developed while
+the author was a Ph.D.\ candidate in the Department of Statistics, University
+of California, Berkeley; the extensions in Sections~\ref{sec:scale},
+\ref{sec:multivariate} and~\ref{sec:semisynthetic} were developed subsequently.
+The author is an independent researcher. Correspondence: pitcany@gmail.com.}}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+An expert who supplies examples of a quantity often also signals how plausible
+each one is; when is that signal worth using? We study eliciting
+a Bayesian prior from an expert who provides example points together with their
+approximate likelihoods. We propose fitting the prior by least squares---%
+minimizing the squared discrepancy between a parametric density and the
+elicited likelihoods---which defines an M-estimator that remains well posed even
+for families whose moments do not exist. We establish
+consistency and asymptotic normality,
+and prove---under explicit regularity conditions, comprising a well-separation
+and a uniform-concentration requirement that we verify for the families
+considered---a non-asymptotic $O(1/\sqrt{n})$ Berry--Esseen bound on its
+sampling distribution, uniform and nonuniform, by extending a result of
+Pinelis for maximum-likelihood estimators to the M-estimation setting. We then
+relax the assumptions that most limit the method in practice. Experts need not
+report on the density's own scale: an unknown reporting scale can be profiled
+out in closed form and estimated jointly, at no asymptotic cost for location
+families. The theory extends to multivariate parameters, where a directional
+Berry--Esseen bound follows from the multivariate delta method applied to a
+smooth implicit proxy for the estimator. An additive error floor in the noise
+model removes a degeneracy in the optimal design, making optimal designs
+interior. Simulations for
+normal and beta families confirm the predicted $n^{-1}$ error rate and the
+accuracy of the normal approximation at moderate sample sizes. Finally, we
+compare the estimator with the sample-only maximum-likelihood baseline,
+derive an explicit threshold on the expert's reporting noise below which the
+elicited likelihoods provably reduce estimation error, and calibrate that
+threshold against eleven datasets of human frequency judgments.
+\end{abstract}
+
+\input{elicitation_body}
+
+\section*{Code availability}
+
+Code to reproduce every figure and every reported number is available at
+\url{https://github.com/pitcany/prior-elicitation}, in the \texttt{experiments/}
+directory: \texttt{ch5\_elicitation.py} generates
+Figures~\ref{fig:elicitation-success}--\ref{fig:elicitation-normality},
+\texttt{ch5\_ls\_vs\_mle.py} generates Figure~\ref{fig:ls-vs-mle},
+\texttt{ch5\_design.py} produces the design comparison of
+Section~\ref{sec:sample-based}, \texttt{ch5\_cauchy.py} produces the
+no-moments results of Section~\ref{sec:cauchy}, \texttt{ch5\_scale.py}
+produces Figure~\ref{fig:ch5-scale} and the sandwich checks of
+Section~\ref{sec:scale}, \texttt{ch5\_multivariate.py} produces
+Figure~\ref{fig:ch5-multivariate}, \texttt{ch5\_floor.py} produces the
+error-floor designs of Remark~\ref{rem:floor}, and
+\texttt{ch5\_semisynthetic.py} produces Figure~\ref{fig:ch5-semisynthetic}.
+The human frequency-judgment data analysed in
+Section~\ref{sec:semisynthetic} is included under
+\texttt{experiments/data/risk\_judgments/} together with the script that
+retrieves it from its source repository \cite{Pachur2024}. Package versions are
+pinned in \texttt{requirements.txt}. Every script is seeded and reproduces the
+reported figures and numbers exactly.
+
+\begin{thebibliography}{10}
+
+\bibitem{BentkusBloznelisGotze1997}
+V.~Bentkus, M.~Bloznelis, and F.~G{\"o}tze.
+\newblock A {B}erry--{E}ss{\'e}en bound for {M}-estimators.
+\newblock {\em Scandinavian Journal of Statistics}, 24(4):485--502, 1997.
+
+\bibitem{Bockting2024}
+F.~Bockting, S.~T. Radev, and P.-C. B{\"u}rkner.
+\newblock Simulation-based prior knowledge elicitation for parametric
+  {B}ayesian models.
+\newblock {\em Scientific Reports}, 2024.
+\newblock arXiv:2308.11672.
+
+\bibitem{Bockting2025}
+F.~Bockting, S.~T. Radev, and P.-C. B{\"u}rkner.
+\newblock Expert-elicitation method for non-parametric joint priors using
+  normalizing flows.
+\newblock {\em Statistics and Computing}, 2025.
+\newblock arXiv:2411.15826.
+
+\bibitem{CasementKahle2018}
+C.~J. Casement and D.~J. Kahle.
+\newblock Graphical prior elicitation in univariate models.
+\newblock {\em Communications in Statistics -- Simulation and Computation},
+  47(10):2906--2924, 2018.
+
+\bibitem{Garthwaite2005}
+P.~H. Garthwaite, J.~B. Kadane, and A.~O'Hagan.
+\newblock Statistical methods for eliciting probability distributions.
+\newblock {\em Journal of the American Statistical Association},
+  100(470):680--701, 2005.
+
+\bibitem{GoldsteinRothschild2014}
+D.~G. Goldstein and D.~Rothschild.
+\newblock Lay understanding of probability distributions.
+\newblock {\em Judgment and Decision Making}, 9(1):1--14, 2014.
+
+\bibitem{Lichtenstein1978}
+S.~Lichtenstein, P.~Slovic, B.~Fischhoff, M.~Layman, and B.~Combs.
+\newblock Judged frequency of lethal events.
+\newblock {\em Journal of Experimental Psychology: Human Learning and Memory},
+  4(6):551--578, 1978.
+
+\bibitem{Manderson2023}
+A.~A. Manderson and R.~J.~B. Goudie.
+\newblock Translating predictive distributions into informative priors.
+\newblock {\em Journal of the American Statistical Association}, 2026.
+\newblock arXiv:2303.08528.
+
+\bibitem{michel1971accuracy}
+R.~Michel and J.~Pfanzagl.
+\newblock The accuracy of the normal approximation for minimum contrast
+  estimates.
+\newblock {\em Zeitschrift f{\"u}r Wahrscheinlichkeitstheorie und Verwandte
+  Gebiete}, 18(1):73--84, 1971.
+
+\bibitem{Mikkola2023}
+P.~Mikkola, O.~A. Martin, S.~Chandramouli, M.~Hartmann, O.~Abril~Pla,
+  O.~Thomas, H.~Pesonen, J.~Corander, A.~Vehtari, S.~Kaski, P.-C. B{\"u}rkner,
+  and A.~Klami.
+\newblock Prior knowledge elicitation: The past, present, and future.
+\newblock {\em Bayesian Analysis}, 19(4):1129--1161, 2024.
+
+\bibitem{Pachur2024}
+T.~Pachur.
+\newblock The perception of dramatic risks: Biased media, but unbiased minds.
+\newblock {\em Cognition}, 246:105736, 2024.
+\newblock Data and materials at \texttt{https://osf.io/u4d7g}.
+
+\bibitem{OakleyOHagan2019}
+J.~E. Oakley and A.~O'Hagan.
+\newblock {SHELF}: the {S}heffield {E}licitation {F}ramework (version 4.0).
+\newblock School of Mathematics and Statistics, University of Sheffield, UK,
+  2019.
+\newblock \url{http://tonyohagan.co.uk/shelf}.
+
+\bibitem{OHagan2006}
+A.~O'Hagan, C.~E. Buck, A.~Daneshkhah, J.~R. Eiser, P.~H. Garthwaite, D.~J.
+  Jenkinson, J.~E. Oakley, and T.~Rakow.
+\newblock {\em Uncertain Judgements: Eliciting Experts' Probabilities}.
+\newblock John Wiley \& Sons, 2006.
+
+\bibitem{Paulauskas1996}
+V.~Paulauskas.
+\newblock Rates of convergence in the asymptotic normality for some local
+  maximum estimators.
+\newblock {\em Lithuanian Mathematical Journal}, 36(1):68--91, 1996.
+
+\bibitem{Pfanzagl1971}
+J.~Pfanzagl.
+\newblock The {B}erry--{E}sseen bound for minimum contrast estimates.
+\newblock {\em Metrika}, 17(1):82--91, 1971.
+
+\bibitem{Pfanzagl1972}
+J.~Pfanzagl.
+\newblock Further results on asymptotic normality {I}.
+\newblock {\em Metrika}, 18(1):174--198, 1972.
+
+\bibitem{Pfanzagl1973}
+J.~Pfanzagl.
+\newblock The accuracy of the normal approximation for estimates of vector
+  parameters.
+\newblock {\em Zeitschrift f{\"u}r Wahrscheinlichkeitstheorie und Verwandte
+  Gebiete}, 25(3):171--198, 1973.
+
+\bibitem{Pinelis2016}
+I.~Pinelis and R.~Molzon.
+\newblock Optimal-order bounds on the rate of convergence to normality in the
+  multivariate delta method.
+\newblock {\em Electronic Journal of Statistics}, 10(1):1001--1063, 2016.
+
+\bibitem{Pinelis2017}
+I.~Pinelis.
+\newblock Optimal-order uniform and nonuniform bounds on the rate of
+  convergence to normality for maximum likelihood estimators.
+\newblock {\em Electronic Journal of Statistics}, 11(1):1160--1179, 2017.
+
+\bibitem{SarmaKay2020}
+A.~Sarma and M.~Kay.
+\newblock Prior setting in practice: Strategies and rationales used in choosing
+  prior distributions for {B}ayesian analysis.
+\newblock In {\em Proceedings of the 2020 CHI Conference on Human Factors in
+  Computing Systems}, pages 1--12. ACM, 2020.
+
+\bibitem{ShaoZhang2021}
+Q.-M. Shao and Z.-S. Zhang.
+\newblock {B}erry--{E}sseen bounds for multivariate nonlinear statistics with
+  applications to {M}-estimators and stochastic gradient descent algorithms.
+\newblock {\em Bernoulli}, 28(3):1548--1576, 2022.
+\newblock arXiv:2102.04923.
+
+\bibitem{Vershynin2018}
+R.~Vershynin.
+\newblock {\em High-Dimensional Probability: An Introduction with Applications
+  in Data Science}.
+\newblock Cambridge University Press, 2018.
+
+\bibitem{Winkler1967}
+R.~L. Winkler.
+\newblock The assessment of prior distributions in {B}ayesian analysis.
+\newblock {\em Journal of the American Statistical Association},
+  62(319):776--800, 1967.
+
+\end{thebibliography}
+
+\end{document}

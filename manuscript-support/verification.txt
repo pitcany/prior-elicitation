@@ -1,0 +1,7 @@
+Final LaTeX log: no errors, warnings, overfull or underfull boxes.
+Cross-references: 168 references checked against 67 unique labels.
+Citations: 44 citation keys checked.
+All nine original figure files preserved byte-for-byte.
+10,000 scalar-bracket checks with positive and negative scores passed.
+Gaussian reporting-scale identity verified by independent quadrature for 20 scale/displacement combinations.
+PDF: 34 pages; no ?? placeholders; acknowledgments absent.
